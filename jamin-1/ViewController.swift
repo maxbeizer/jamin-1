@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,13 +29,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
     @IBAction func sliderChanged(sender: UISlider) {
         let newColor = UIColor(red: CGFloat(self.redSlider.value), green: CGFloat(self.greenSlider.value), blue: CGFloat(self.blueSlider.value), alpha: CGFloat(1.0))
         self.view.backgroundColor = newColor
         updateStatusBarForColor(newColor)
     }
-    
   
 }
 
