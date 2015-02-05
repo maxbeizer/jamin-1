@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="jamin_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fo7-p9-rgh">
+                                <rect key="frame" x="34" y="450" width="532" height="31"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="a76-Sh-mGS"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vzf-VR-Wog">
+                                <rect key="frame" x="34" y="500" width="532" height="31"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="cvP-Kq-XPY"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Rpz-Gh-Hc2">
+                                <rect key="frame" x="34" y="550" width="532" height="31"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qDM-1w-msr"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rpz-Gh-Hc2" secondAttribute="trailing" constant="20" id="2F2-Jk-NOV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rpz-Gh-Hc2" secondAttribute="bottom" constant="20" id="Iik-3N-mO4"/>
+                            <constraint firstItem="vzf-VR-Wog" firstAttribute="top" secondItem="fo7-p9-rgh" secondAttribute="bottom" constant="20" id="b9t-Xw-AKi"/>
+                            <constraint firstItem="Rpz-Gh-Hc2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="jjL-Ci-hcx"/>
+                            <constraint firstItem="vzf-VR-Wog" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="lJQ-gw-awa"/>
+                            <constraint firstItem="fo7-p9-rgh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="lcN-Vd-zwO"/>
+                            <constraint firstItem="Rpz-Gh-Hc2" firstAttribute="top" secondItem="vzf-VR-Wog" secondAttribute="bottom" constant="20" id="uiK-Sk-EzS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vzf-VR-Wog" secondAttribute="trailing" constant="20" id="wiF-A1-LOf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fo7-p9-rgh" secondAttribute="trailing" constant="20" id="yq7-bc-Qps"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="Rpz-Gh-Hc2" id="UFV-uA-Tr4"/>
+                        <outlet property="greenSlider" destination="vzf-VR-Wog" id="v5C-Ed-KMe"/>
+                        <outlet property="redSlider" destination="fo7-p9-rgh" id="JSK-q1-pgD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="337"/>
+        </scene>
+    </scenes>
+</document>
