@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18CEC7A8-582F-4E6F-91B6-6E37FBCFD453</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jamin-1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>340B90C98AE92E61BC92DD5BD10D931F64F101A5</key>
+		<string>github.com:maxbeizer/jamin-1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jamin-1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>340B90C98AE92E61BC92DD5BD10D931F64F101A5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:maxbeizer/jamin-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>340B90C98AE92E61BC92DD5BD10D931F64F101A5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>340B90C98AE92E61BC92DD5BD10D931F64F101A5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jamin-1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

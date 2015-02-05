@@ -31,17 +31,11 @@ class ViewController: UIViewController {
 
 
     @IBAction func sliderChanged(sender: UISlider) {
-        self.view.backgroundColor = UIColor(red: CGFloat(self.redSlider.value), green: CGFloat(self.greenSlider.value), blue: CGFloat(self.blueSlider.value), alpha: CGFloat(1.0))
-        updateStatusBar()
+        let newColor = UIColor(red: CGFloat(self.redSlider.value), green: CGFloat(self.greenSlider.value), blue: CGFloat(self.blueSlider.value), alpha: CGFloat(1.0))
+        self.view.backgroundColor = newColor
+        updateStatusBarForColor(newColor)
     }
     
-    func updateStatusBar() {
-        let backgroundColor = self.view.backgroundColor!
-        var greyscale: CGFloat = 0.0
-        backgroundColor.getWhite(&greyscale, alpha: nil)
-        let statusBarStyle: UIStatusBarStyle = greyscale > 0.5 ? .Default : .LightContent
-        UIApplication.sharedApplication().setStatusBarStyle(statusBarStyle, animated: false)
-        
-    }
+  
 }
 

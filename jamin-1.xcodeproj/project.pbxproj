@@ -13,6 +13,7 @@
 		F7256F4E1A80476700B3A065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7256F4D1A80476700B3A065 /* Images.xcassets */; };
 		F7256F511A80476700B3A065 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7256F4F1A80476700B3A065 /* LaunchScreen.xib */; };
 		F7256F5D1A80476700B3A065 /* jamin_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7256F5C1A80476700B3A065 /* jamin_1Tests.swift */; };
+		F7EC6B411A82F8F10010C7BB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC6B401A82F8F10010C7BB /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F7256F561A80476700B3A065 /* jamin-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jamin-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7256F5B1A80476700B3A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7256F5C1A80476700B3A065 /* jamin_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamin_1Tests.swift; sourceTree = "<group>"; };
+		F7EC6B401A82F8F10010C7BB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F7256F4D1A80476700B3A065 /* Images.xcassets */,
 				F7256F4F1A80476700B3A065 /* LaunchScreen.xib */,
 				F7256F441A80476700B3A065 /* Supporting Files */,
+				F7EC6B401A82F8F10010C7BB /* Utilities.swift */,
 			);
 			path = "jamin-1";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EC6B411A82F8F10010C7BB /* Utilities.swift in Sources */,
 				F7256F491A80476700B3A065 /* ViewController.swift in Sources */,
 				F7256F471A80476700B3A065 /* AppDelegate.swift in Sources */,
 			);
